@@ -1,0 +1,87 @@
+/* --- put your css here --- */ 
+body{
+  color: skyblue;
+}
+
+#igottabeme{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.classy{
+  margin-left: 10px;
+}
+
+div{
+  margin-bottom: 50px;
+}
+
+span{
+  width: 100px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  background-color: yellow;
+}
+
+span.a{
+  display: inline;
+}
+
+span.b{
+  display: block;
+}
+
+span.c{
+  display: inline-block;
+}
+
+img[alt="cat icon"]{
+ position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+img[alt="dog icon"]{
+  position: relative;
+  right: 50px;
+  bottom: 150px;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(0, 175, 0, 0.3);
+  padding: 5px;
+  font-size: 20px;
+}
+
+#positionMe{
+background-color: orange;
+}
+
+/* --- pre-existing css --- */
+.stripey tr:nth-child(even) {
+  background-color: gray;
+}
+.stripey tr:nth-child(odd) {
+  background-color: white;
+}
+.stripey th {
+  color: white;
+  background-color: black;
+}
+.mousey td:hover {
+  background-color: yellow;
+}
+.rightey td {
+  text-align: right;
+}
+input[type="text"].pinkey:focus {
+  background-color: pink;
+}
