@@ -52,6 +52,15 @@ img[alt="dog icon"]{
   bottom: 150px;
 }
 
+#positionMe{
+background-color: orange;
+}
+
+img[alt="bird icon]{
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
 nav{
   position: sticky;
   top: 0;
@@ -61,9 +70,6 @@ nav{
   font-size: 20px;
 }
 
-#positionMe{
-background-color: orange;
-}
 
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
