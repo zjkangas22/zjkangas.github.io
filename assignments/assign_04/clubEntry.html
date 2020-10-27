@@ -52,6 +52,15 @@
 	
 	function addClub() {
         // your code here
+		let name = document.getElementById("clubName").innerHTML;
+		let newClub = [clubs[clubs.length - 1][0]] + 1, name.slice(0,3), name,   0, 0, 0, 0, 0,   0,   0];
+		clubs.push(newClub)
+		
+		// store the array in local storage
+	let str = JSON.stringify(clubs);
+	localStorage.setItem("clubs", str);
+	// and refresh screen
+	window.location.href = "clubDistanceList.html"; 
 	}
 	
 	// navigate to club distance LIST screen
