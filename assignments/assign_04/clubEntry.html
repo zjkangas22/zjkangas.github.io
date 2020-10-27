@@ -58,7 +58,7 @@
 		window.location.href = "clubDistanceList.html"; 
 		
 		let tblbody = document.getElementById('clubTable').children[0]; 
-		
+		console.log(clubs);
 		let row = tblbody.insertRow(clubs.length); // skip first row (column headings)
 		// create an empty cell for each column to appear in HTML table
 		let cell0 = row.insertCell(0); // clubAbbrev
