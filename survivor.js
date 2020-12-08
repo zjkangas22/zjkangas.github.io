@@ -11,11 +11,11 @@ function dialogue(){
   
   if(dial_prog==1){
     Jeff.innerHTML = "Want to know what you’re playing for?";
-    Abby.innerHTML = "HECK YEAH!!!! I want some margharitas!!!!";
+    Abby.innerHTML = "HECK YEAH!!!! I want some fooooood!!!!";
   }
   
   if(dial_prog==2){
-    Jeff.innerHTML = "Well I MIGHT have consumed all seven margharitas and tacos on the way over here so Cameraman Number 3 will have to come up with something else. We all know this was your fault Number 3!"
+    Jeff.innerHTML = "Well I MIGHT have consumed all seven tacos and the salsa on the way over here. I've been eating nothing but rice and coconuts for 29 seasons, so I think I deserved it."
     Abby.innerHTML = "Looks like Jeff's finally losing it...";
   }
   
@@ -40,7 +40,7 @@ function check_ans(){
     chal2.hidden = true;
     pre.hidden = false;
     dial_prog++;
-    Jeff.innerHTML = "Abby wins reward!!! Since Sarah and Emily went to do dabs on the beach and Zachery got med-evaced with heat stroke, it was almost like you were doing the challenge alone! Cameraman Number 3 just let me know that your reward will be waiting for you back at camp inside a mini fridge!";
+    Jeff.innerHTML = "Abby wins reward!!! Since Sarah and Emily went to do dabs on the beach and Zachery got med-evaced with heat stroke, it was almost like you were doing the challenge alone! Cameraman Number 3 just let me know that Abby's replacement reward will be waiting for you back at camp inside a personal mini fridge! For the rest of you, I've got nothing for you, head back to camp.";
     Abby.hidden = true;
   } 
 }
