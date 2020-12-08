@@ -1,0 +1,29 @@
+#maze{
+  table-layout:fixed;
+}
+
+.mr{
+  padding : 0px;
+  margin:0px;
+  height:17px;
+}
+
+.wall{
+  background-color:grey;
+}
+
+.totem{
+  background-color:purple;
+}
+
+.player{
+  background-color:lime
+}
+
+td{
+  text-align:center;
+}
+
+.floor{
+  background-color:white;
+}
